@@ -1,0 +1,25 @@
+{
+  "name": "types-date-format-order-time-format-order",
+  "version": "0.0.1",
+  "description": "Typescript type declarations DateFormatOrder and TimeFormatOrder, which are used for the ordering of dates and times",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/writetome51/types-date-format-order-time-format-order.git"
+  },
+  "keywords": [
+  
+  ],
+  "author": "Steve Thompson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/writetome51/types-date-format-order-time-format-order/issues"
+  },
+  "homepage": "https://github.com/writetome51/types-date-format-order-time-format-order#readme",
+  "dependencies": {
+  }
+}
