@@ -1,9 +1,15 @@
 export interface SeparatorOptions {
-    separator?: string;
-    separateEach?: boolean;
+	separator?: string;
+	separateEach?: boolean;
 }
+
+
 export interface YearSeparatorOptions extends SeparatorOptions {
-    includeFullYear?: boolean;
+	includeFullYear?: boolean;
 }
+
+
 export declare function getDefaultsFor_SeparatorOptions(): SeparatorOptions;
+
+
 export declare function getDefaultsFor_YearSeparatorOptions(): YearSeparatorOptions;

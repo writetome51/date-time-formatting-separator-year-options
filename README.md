@@ -1,10 +1,21 @@
-# DateFormatOrder
+# SeparatorOptions
 
-`declare type DateFormatOrder = 'ymd' | 'ydm' | 'myd' | 'mdy' | 'dym' | 'dmy'`
+A TypeScript interface:  
+`{separator?: string,  separateEach?: boolean}`
 
-# TimeFormatOrder
+# YearSeparatorOptions
 
-`declare type TimeFormatOrder = 'hms' | 'hsm' | 'msh' | 'mhs' | 'smh' | 'shm'`
+A TypeScript interface extending SeparatorOptions and adding this:  
+`{includeFullYear?: boolean}`
+
+# getDefaultsFor_SeparatorOptions():<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SeparatorOptions
+
+Returns default values of SeparatorOptions.
+
+# getDefaultsFor_YearSeparatorOptions():<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;YearSeparatorOptions
+
+Returns default values of YearSeparatorOptions.
+
 
 
 ## Installation
