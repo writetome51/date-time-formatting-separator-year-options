@@ -19,11 +19,12 @@ Returns default values of YearSeparatorOptions.
 
 
 ## Installation
-`npm i  types-date-format-order-time-format-order`
+`npm i  @writetome51/separator-year-options`
 
 ## Loading
 ```ts
 // if using TypeScript:
-import {DateFormatOrder, TimeFormatOrder} 
-    from 'types-date-format-order-time-format-order';
+import {SeparatorOptions, YearSeparatorOptions, 
+    getDefaultsFor_SeparatorOptions, getDefaultsFor_YearSeparatorOptions} 
+        from '@writetome51/separator-year-options';
 ```
