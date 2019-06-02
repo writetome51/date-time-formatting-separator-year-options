@@ -19,12 +19,12 @@ Returns default values of YearSeparatorOptions.
 
 
 ## Installation
-`npm i  @writetome51/separator-year-options`
+`npm i  @writetome51/year-separator-options`
 
 ## Loading
 ```ts
 // if using TypeScript:
 import {SeparatorOptions, YearSeparatorOptions, 
     getDefaultsFor_SeparatorOptions, getDefaultsFor_YearSeparatorOptions} 
-        from '@writetome51/separator-year-options';
+        from '@writetome51/year-separator-options';
 ```

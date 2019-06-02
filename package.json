@@ -1,7 +1,7 @@
 {
-  "name": "@writetome51/separator-year-options",
+  "name": "@writetome51/year-separator-options",
   "version": "0.0.1",
-  "description": "2 interfaces and 2 functions for date-time formatting options",
+  "description": "2 interfaces representing settings options and 2 functions that return their default settings",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
@@ -9,17 +9,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/writetome51/separator-year-options.git"
+    "url": "git+https://github.com/writetome51/year-separator-options.git"
   },
   "keywords": [
-  
   ],
   "author": "Steve Thompson",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/writetome51/separator-year-options/issues"
+    "url": "https://github.com/writetome51/year-separator-options/issues"
   },
-  "homepage": "https://github.com/writetome51/separator-year-options#readme",
+  "homepage": "https://github.com/writetome51/year-separator-options#readme",
   "dependencies": {
   }
 }
