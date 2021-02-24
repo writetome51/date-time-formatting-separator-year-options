@@ -1,13 +1,17 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-var private_constants_1 = require("./private_constants");
-function getDefaultsFor_SeparatorOptions() {
-    return { separator: private_constants_1.__default_separator, separateEach: private_constants_1.__default_separateEach };
+import {
+	__default_includeFullYear,
+	__default_separateEach,
+	__default_separator
+} from './private_constants.js';
+
+
+export function getDefaultsFor_SeparatorOptions() {
+	return {separator: __default_separator, separateEach: __default_separateEach};
 }
-exports.getDefaultsFor_SeparatorOptions = getDefaultsFor_SeparatorOptions;
-function getDefaultsFor_YearSeparatorOptions() {
-    var defaults = getDefaultsFor_SeparatorOptions();
-    defaults['includeFullYear'] = private_constants_1.__default_includeFullYear;
-    return defaults;
+
+
+export function getDefaultsFor_YearSeparatorOptions() {
+	let defaults = getDefaultsFor_SeparatorOptions();
+	defaults['includeFullYear'] = __default_includeFullYear;
+	return defaults;
 }
-exports.getDefaultsFor_YearSeparatorOptions = getDefaultsFor_YearSeparatorOptions;
