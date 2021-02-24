@@ -1,6 +1,6 @@
 {
   "name": "@writetome51/year-separator-options",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "2 interfaces representing settings options and 2 functions that return their default settings",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
